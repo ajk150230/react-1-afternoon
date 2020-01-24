@@ -131,6 +131,18 @@ class App extends Component {
   render() {
     return (
       <TopicBrowser />
+      <TopicBrowser />
+      <TopicBrowser />
+      <TopicBrowser />
+      <TopicBrowser />
+      <TopicBrowser />
+      <TopicBrowser />
+      <TopicBrowser />
+      <TopicBrowser />
+      <TopicBrowser />
+      <TopicBrowser />
+      <TopicBrowser />
+      
     )
   }
 }
