@@ -29,10 +29,14 @@ export default class FilterObject extends Component {
 
         for (let i = 0; i <employees.length; i++){
             if (employees[i].hasOwnProperty(prop) ){
-                filteredEmployees.push(employees[i]);
+                filteredEmployees.push(employees [i]);
             }
         }
         this.setState({ filteredEmployees: filteredEmployees });
+    }
+
+    handleChange(input){
+        this.setState({userInput: input})
     }
 
     render (){
